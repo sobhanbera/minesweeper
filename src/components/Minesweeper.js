@@ -731,9 +731,9 @@ function Minesweeper(props) {
 											className='rowele'
 											key={rowItem.id}
 										>
-											{(rowItem.val > 0 &&
+											{/*(*/rowItem.val > 0 &&
 											rowItem.open &&
-											rowItem.show) || rowItem.val === -1
+											rowItem.show /*) || rowItem.val === -1*/
 												? rowItem.val
 												: ''}
 											{/* {rowItem.val > 0 ? rowItem.val : ''} */}
